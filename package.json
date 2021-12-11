@@ -1,0 +1,26 @@
+{
+  "name": "layer0-saber-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "saber",
+    "build": "saber build",
+    "deploy": "layer0 deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prismjs": "^1.16.0",
+    "saber": "^0.11.7",
+    "saber-highlight-css": "^0.0.3",
+    "saber-plugin-prismjs": "^0.2.0"
+  },
+  "devDependencies": {
+    "@layer0/cli": "^4.6.0",
+    "@layer0/core": "^4.6.0",
+    "@layer0/devtools": "^4.6.0",
+    "@layer0/prefetch": "^4.6.0"
+  }
+}
